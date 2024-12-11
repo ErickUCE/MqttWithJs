@@ -1,0 +1,23 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "MQTT with JS API",
+      "description": "API para el proyecto MQTT con JavaScript"
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "paths": {
+      "/": {
+        "get": {
+          "summary": "Página principal",
+          "responses": {
+            "200": {
+              "description": "Página cargada correctamente"
+            }
+          }
+        }
+      }
+    }
+  }
+  
